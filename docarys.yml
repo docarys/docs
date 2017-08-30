@@ -1,4 +1,6 @@
 site_name: Docarys documentation
+repo_name: docarys/docarys
+repo_url: https://github.com/docarys/docarys
 theme: material
 extra:
   feature:
