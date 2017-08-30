@@ -1,0 +1,10 @@
+site_name: Docarys documentation
+theme: material
+extra:
+  feature:
+    tabs: false
+  palette:
+    primary: lime
+    accent: indigo
+pages:
+  Home: index.md
