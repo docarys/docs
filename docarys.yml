@@ -1,12 +1,13 @@
-site_name: Docarys documentation
-repo_name: docarys/docarys
-repo_url: https://github.com/docarys/docarys
-theme: material
-extra:
+site_name: Docarys docs
+theme:
+  name: material
+  language: en
   feature:
     tabs: false
   palette:
     primary: lime
     accent: indigo
 pages:
-  Home: index.md
+  - Home: index.md
+  - Level 1:
+      - Index: level 1/index.md
