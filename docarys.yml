@@ -1,13 +1,53 @@
-site_name: Docarys docs
+# Site information
+site_name: Docarys
+site_description: Yet another static web site utility for technical documentation.
+site_author: Sergio Sisternes
+site_url: https://www.docarys.io
+
+# Repository
+repo_name: docarys/docarys
+repo_url: https://github.com/docarys/docarys
+edit_uri: https://github.com/docarys/docs/blob/master
+
+# Copyright
+copyright: 'Copyright &copy; 2017 - 2018 Sergio Sisternes'
+
+# Theme configuration
 theme:
   name: material
+  include_search_page: false
+  search_index_only: true  
   language: en
   feature:
-    tabs: false
+    tabs: true
   palette:
-    primary: lime
+    primary: orange
     accent: indigo
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: img/favicon.png
+  logo:
+    icon: "\uE80C"
+  static_templates:
+    - 404.html
+
+# Customization
+extra:
+  social:
+    - type: github-alt
+      link: https://github.com/sesispla
+    - type: twitter
+      link: https://twitter.com/sesispla
+    - type: linkedin
+      link: https://linkedin.com/in/sesispla
+
 pages:
-  - Home: index.md
-  - Level 1:
-      - Index: level 1/index.md
+  - Docarys:
+    - Home: index.md
+    - Installation: docarys/installation.md
+    - Get started: docarys/get-started.md
+    - License: license.md
+  - Material for Docarys:
+      - Index: material/index.md
+  
