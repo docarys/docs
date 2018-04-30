@@ -16,7 +16,7 @@ $ yo docarys
 
 With this simple command, docarys will create the basic project structure and files.
 
-!!! warning
+!!! warning Recommendation
 Further improvements to add questions and enable features will be added in the future. This is why we highly recommend to get used to generator-docarys!
 !!!
 
@@ -51,6 +51,8 @@ Build succeed
 A new browser instance will be opened, displaying the documentation:
 
 ![docarys serve](img/docarys-serve.png)
+
+## IDE
 
 ## Docarys command cheetsheet
 
