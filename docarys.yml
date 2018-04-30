@@ -27,8 +27,6 @@ theme:
     text: Roboto
     code: Roboto Mono
   favicon: img/favicon.png
-  logo:
-    icon: "\uE80C"
   static_templates:
     - 404.html
 
