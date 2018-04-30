@@ -1,3 +1,17 @@
+!!! danger Work in progress
+Dear user,
+
+Thank you for your time. I am doing my best to make Docarys useful and meaningful. However, both documentation and docarys itself is under heavy development.
+
+I promise you to give my best to introduce the minimum required breaking changes. Also, to keep the documentation as much up to date and complete as possible.
+
+If you also find Docarys interesting, useful and meaningful, and you can contribute in any way (Issues or Pull Requests), your help is more than welcome.
+
+Sincerely yours,
+
+Sergio and the Docarys team
+!!!
+
 ## Overview
 
 Welcome to docarys. Docarys is:
