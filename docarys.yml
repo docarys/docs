@@ -1,8 +1,9 @@
 # Site information
 site_name: Docarys
-site_description: Yet another static web site utility for technical documentation.
-site_author: Sergio Sisternes
-site_url: https://www.docarys.io
+site_url: http://docs.docarys.io
+meta:
+  description: Yet another static web site utility for technical documentation.
+  author: Sergio Sisternes
 
 # Repository
 repo_name: docarys/docarys
@@ -15,8 +16,6 @@ copyright: 'Copyright &copy; 2017 - 2018 Sergio Sisternes'
 # Theme configuration
 theme:
   name: material
-  include_search_page: false
-  search_index_only: true  
   language: en
   feature:
     tabs: true
@@ -27,8 +26,6 @@ theme:
     text: Roboto
     code: Roboto Mono
   favicon: img/favicon.png
-  static_templates:
-    - 404.html
 
 # Customization
 extra:
@@ -44,6 +41,7 @@ pages:
   - Docarys:
     - Home: index.md
     - Installation: docarys/installation.md
+    - Configuration: docarys/configuration.md
     - Get started: docarys/get-started.md
     - License: license.md
   - Material for Docarys:
