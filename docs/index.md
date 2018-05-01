@@ -1,4 +1,4 @@
-!!! danger Work in progress
+!!! warning Work in progress
 Dear user,
 
 Thank you for your time. I am doing my best to make Docarys useful and meaningful. However, both documentation and docarys itself is under heavy development.
